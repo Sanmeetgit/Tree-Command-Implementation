@@ -81,19 +81,44 @@ This repository contains Linux Tree Command Implementation Project in C.
       <td>Print inode number of each file.</td>
     </tr>
   </table>
-  -Q &nbsp; &nbsp; &nbsp;             Quote filenames with double quotes.<br/>
-  -p &nbsp; &nbsp; &nbsp;             Print the protections for each file.<br/>
-  -u &nbsp; &nbsp; &nbsp;             Displays file owner name.<br/>
-  -s &nbsp; &nbsp; &nbsp;             Print the size in bytes of each file.<br/>
-  -h &nbsp; &nbsp; &nbsp;             Print the size in a more human readable way.<br/>
-  -D &nbsp; &nbsp; &nbsp;             Print the date of last modification.<br/>
-  --inodes &nbsp; &nbsp; &nbsp;       Print inode number of each file.<br/>
   
   ------- Sorting options -------<br/>
+  <table>
+    <tr>
+      <td>-t</td>
+      <td>Sort files by last modification time.</td>
+    </tr>
+    <tr>
+      <td>-r</td>
+      <td>Reverse alphabetical order of files/directories.</td>
+    </tr>
+  </table>
   -t &nbsp; &nbsp; &nbsp;             Sort files by last modification time.<br/>
   -r &nbsp; &nbsp; &nbsp;             Reverse alphabetical order of files/directories.<br/>
   
   ------- XML/HTML/JSON options -------<br/>
+  <table>
+    <tr>
+      <td>-X</td>
+      <td>Prints out an XML representation of the tree.</td>
+    </tr>
+    <tr>
+      <td>-X -o filename</td>
+      <td>Output an XML representation of the tree to filename.</td>
+    </tr>
+      <tr>
+      <td>-J</td>
+      <td>Prints out an JSON representation of the tree.</td>
+    </tr>
+    <tr>
+      <td>-J -o filename</td>
+      <td>Output an JSON representation of the tree to filename.</td>
+    </tr>
+    <tr>
+      <td>-H -o filename</td>
+      <td>Output an HTML format of the tree to filename.</td>
+    </tr>
+  </table>
   -X &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           Prints out an XML representation of the tree.<br/>
   -X -o filename &nbsp; &nbsp; &nbsp; Output an XML representation of the tree to filename.<br/>
   -J &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          Prints out an JSON representation of the tree.<br/>
@@ -101,6 +126,16 @@ This repository contains Linux Tree Command Implementation Project in C.
   -H -o filename &nbsp; &nbsp; &nbsp; Output an HTML format of the tree to filename.<br/>
   
   ------- Miscellaneous options -------<br/>
+  <table>
+    <tr>
+      <td>--help</td>
+      <td>Print usage and this help message and exit.</td>
+    </tr>
+    <tr>
+      <td>--all</td>
+      <td>Print all information about files.</td>
+    </tr>
+  </table>
   --help &nbsp; &nbsp; &nbsp;         Print usage and this help message and exit.<br/>
   --all	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	  Print all information about files.<br/>
 
