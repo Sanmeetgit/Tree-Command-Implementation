@@ -16,33 +16,37 @@ This repository contains Linux Tree Command Implementation Project in C.
 
 ------- Listing options -------<br/>
   -a &nbsp; &nbsp; &nbsp;              All files are listed(private files also).<br/>
-  -d&nbsp;              List directories only.<br/>
-  -f&nbsp;              Print the full path prefix for each file.<br/>
-  -L level        Descend only level directories deep.<br/>
-  -P pattern      List only those files that match the wild-card pattern given.<br/>
-  -I pattern      Do not list files that match the given wild-card pattern.<br/>
-  --noreport      Turn off file/directory count at end of tree listing.<br/>
-  -o filename     Output to file instead of stdout.<br/>
+  -d &nbsp; &nbsp; &nbsp;              List directories only.<br/>
+  -f &nbsp; &nbsp; &nbsp;              Print the full path prefix for each file.<br/>
+  -L level &nbsp; &nbsp; &nbsp;        Descend only level directories deep.<br/>
+  -P pattern &nbsp; &nbsp; &nbsp;      List only those files that match the wild-card pattern given.<br/>
+  -I pattern &nbsp; &nbsp; &nbsp;      Do not list files that match the given wild-card pattern.<br/>
+  --noreport &nbsp; &nbsp; &nbsp;      Turn off file/directory count at end of tree listing.<br/>
+  -o filename &nbsp; &nbsp; &nbsp;    Output to file instead of stdout.<br/>
   
   ------- File options -------<br/>
-  -Q              Quote filenames with double quotes.<br/>
-  -p              Print the protections for each file.<br/>
-  -u              Displays file owner name.<br/>
-  -s              Print the size in bytes of each file.<br/>
-  -h              Print the size in a more human readable way.<br/>
-  -D              Print the date of last modification.<br/>
-  --inodes        Print inode number of each file.<br/>
+  -Q &nbsp; &nbsp; &nbsp;             Quote filenames with double quotes.<br/>
+  -p &nbsp; &nbsp; &nbsp;             Print the protections for each file.<br/>
+  -u &nbsp; &nbsp; &nbsp;             Displays file owner name.<br/>
+  -s &nbsp; &nbsp; &nbsp;             Print the size in bytes of each file.<br/>
+  -h &nbsp; &nbsp; &nbsp;             Print the size in a more human readable way.<br/>
+  -D &nbsp; &nbsp; &nbsp;             Print the date of last modification.<br/>
+  --inodes &nbsp; &nbsp; &nbsp;       Print inode number of each file.<br/>
   
   ------- Sorting options -------<br/>
-  -t              Sort files by last modification time.<br/>
-  -r              Reverse alphabetical order of files/directories.<br/>
+  -t &nbsp; &nbsp; &nbsp;             Sort files by last modification time.<br/>
+  -r &nbsp; &nbsp; &nbsp;             Reverse alphabetical order of files/directories.<br/>
   
   ------- XML/HTML/JSON options -------<br/>
-  -X              Prints out an XML representation of the tree.<br/>
-  -X -o filename  Output an XML representation of the tree to filename.<br/>
-  -J              Prints out an JSON representation of the tree.<br/>
-  -J -o filename  Output an JSON representation of the tree to filename.<br/>
-  -H -o filename  Output an HTML format of the tree to filename.<br/>
+  -X &nbsp; &nbsp; &nbsp;             Prints out an XML representation of the tree.<br/>
+  -X -o filename &nbsp; &nbsp; &nbsp; Output an XML representation of the tree to filename.<br/>
+  -J &nbsp; &nbsp; &nbsp;             Prints out an JSON representation of the tree.<br/>
+  -J -o filename &nbsp; &nbsp; &nbsp; Output an JSON representation of the tree to filename.<br/>
+  -H -o filename &nbsp; &nbsp; &nbsp; Output an HTML format of the tree to filename.<br/>
+  
+  ------- Miscellaneous options -------<br/>
+  --help &nbsp; &nbsp; &nbsp;         Print usage and this help message and exit.<br/>
+  --all	&nbsp; &nbsp; &nbsp;	  Print all information about files.<br/>
 
 # How to run the project?<br/>
 1) First compile all project c files using makefile. (Makefile helps to compile uncompiled files only and avoids repetitive compilations)<br/>
