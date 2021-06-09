@@ -1,7 +1,7 @@
 # Tree-Command-Implementation
 This repository contains Linux Tree Command Implementation Project in C. 
 
-> Tree is a recursive directory listing program that produces a depth-indented listing of files.
+<i> Tree is a recursive directory listing program that produces a depth-indented listing of files.</i>
 
 > With no arguments, it lists the files and sub-directories in the current directory.
 
