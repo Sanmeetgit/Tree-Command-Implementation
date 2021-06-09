@@ -38,9 +38,9 @@ This repository contains Linux Tree Command Implementation Project in C.
   -r &nbsp; &nbsp; &nbsp;             Reverse alphabetical order of files/directories.<br/>
   
   ------- XML/HTML/JSON options -------<br/>
-  -X &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            Prints out an XML representation of the tree.<br/>
+  -X &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           Prints out an XML representation of the tree.<br/>
   -X -o filename &nbsp; &nbsp; &nbsp; Output an XML representation of the tree to filename.<br/>
-  -J &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            Prints out an JSON representation of the tree.<br/>
+  -J &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          Prints out an JSON representation of the tree.<br/>
   -J -o filename &nbsp; &nbsp; &nbsp; Output an JSON representation of the tree to filename.<br/>
   -H -o filename &nbsp; &nbsp; &nbsp; Output an HTML format of the tree to filename.<br/>
   
