@@ -15,7 +15,7 @@ This repository contains Linux Tree Command Implementation Project in C.
 # Flags implemented in the project :
 
 ------- Listing options -------<br/>
-  -a&nbsp;&nbsp;&nbsp;              All files are listed(private files also).<br/>
+  -a &nbsp; &nbsp; &nbsp;              All files are listed(private files also).<br/>
   -d&nbsp;              List directories only.<br/>
   -f&nbsp;              Print the full path prefix for each file.<br/>
   -L level        Descend only level directories deep.<br/>
