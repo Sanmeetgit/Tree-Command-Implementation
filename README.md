@@ -15,7 +15,7 @@ This repository contains Linux Tree Command Implementation Project in C.
 # Flags implemented in the project :
 
 ------- Listing options -------<br/>
-  <table> 
+<table> 
   <tr>
     <td>-a</td>
     <td>All files are listed(private files also).</td>
@@ -49,16 +49,38 @@ This repository contains Linux Tree Command Implementation Project in C.
     <td>Output to file instead of stdout.</td>
   </tr>
 </table>
-  -a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           All files are listed(private files also).<br/>
-  -d &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             List directories only.<br/>
-  -f &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          Print the full path prefix for each file.<br/>
-  -L level &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       Descend only level directories deep.<br/>
-  -P pattern &nbsp; &nbsp; &nbsp; &nbsp;       List only those files that match the wild-card pattern given.<br/>
-  -I pattern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Do not list files that match the given wild-card pattern.<br/>
-  --noreport &nbsp; &nbsp; &nbsp; &nbsp;       Turn off file/directory count at end of tree listing.<br/>
-  -o filename &nbsp; &nbsp; &nbsp;    Output to file instead of stdout.<br/>
   
   ------- File options -------<br/>
+  <table>
+    <tr>
+      <td>-Q</td>
+      <td>Quote filenames with double quotes.</td>
+    </tr>
+    <tr>
+      <td>-p</td>
+      <td>Print the protections for each file.</td>
+    </tr>
+    <tr>
+      <td>-u</td>
+      <td>Displays file owner name.</td>
+    </tr>
+    <tr>
+      <td>-s</td>
+      <td>Print the size in bytes of each file.</td>
+    </tr>
+    <tr>
+      <td>-h</td>
+      <td>Print the size in a more human readable way.</td>
+    </tr>
+    <tr>
+      <td>-D</td>
+      <td>Print the date of last modification.</td>
+    </tr>
+    <tr>
+      <td>--inodes</td>
+      <td>Print inode number of each file.</td>
+    </tr>
+  </table>
   -Q &nbsp; &nbsp; &nbsp;             Quote filenames with double quotes.<br/>
   -p &nbsp; &nbsp; &nbsp;             Print the protections for each file.<br/>
   -u &nbsp; &nbsp; &nbsp;             Displays file owner name.<br/>
