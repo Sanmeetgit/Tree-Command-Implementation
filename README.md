@@ -17,8 +17,12 @@ This repository contains Linux Tree Command Implementation Project in C.
 ------- Listing options -------<br/>
   <table> 
   <tr>
-    <td>hello</td>
-    <td>world</td>
+    <td>-a</td>
+    <td>All files are listed(private files also).</td>
+  </tr>
+  <tr>
+    <td>-d</td>
+    <td>List directories only.</td>
   </tr>
 </table>
   -a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           All files are listed(private files also).<br/>
