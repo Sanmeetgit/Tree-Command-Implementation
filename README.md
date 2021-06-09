@@ -18,10 +18,10 @@ This repository contains Linux Tree Command Implementation Project in C.
   -a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           All files are listed(private files also).<br/>
   -d &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             List directories only.<br/>
   -f &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             Print the full path prefix for each file.<br/>
-  -L level &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        Descend only level directories deep.<br/>
-  -P pattern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      List only those files that match the wild-card pattern given.<br/>
+  -L level &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Descend only level directories deep.<br/>
+  -P pattern &nbsp; &nbsp; &nbsp; &nbsp;       List only those files that match the wild-card pattern given.<br/>
   -I pattern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Do not list files that match the given wild-card pattern.<br/>
-  --noreport &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Turn off file/directory count at end of tree listing.<br/>
+  --noreport &nbsp; &nbsp; &nbsp; &nbsp;       Turn off file/directory count at end of tree listing.<br/>
   -o filename &nbsp; &nbsp; &nbsp;    Output to file instead of stdout.<br/>
   
   ------- File options -------<br/>
