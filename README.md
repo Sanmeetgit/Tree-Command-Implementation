@@ -17,7 +17,7 @@ This repository contains Linux Tree Command Implementation Project in C.
 ------- Listing options -------<br/>
   -a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           All files are listed(private files also).<br/>
   -d &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             List directories only.<br/>
-  -f &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            Print the full path prefix for each file.<br/>
+  -f &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          Print the full path prefix for each file.<br/>
   -L level &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Descend only level directories deep.<br/>
   -P pattern &nbsp; &nbsp; &nbsp; &nbsp;       List only those files that match the wild-card pattern given.<br/>
   -I pattern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Do not list files that match the given wild-card pattern.<br/>
@@ -25,7 +25,7 @@ This repository contains Linux Tree Command Implementation Project in C.
   -o filename &nbsp; &nbsp; &nbsp;    Output to file instead of stdout.<br/>
   
   ------- File options -------<br/>
-  -Q &nbsp; &nbsp; &nbsp; &nbsp;            Quote filenames with double quotes.<br/>
+  -Q &nbsp; &nbsp; &nbsp;             Quote filenames with double quotes.<br/>
   -p &nbsp; &nbsp; &nbsp;             Print the protections for each file.<br/>
   -u &nbsp; &nbsp; &nbsp;             Displays file owner name.<br/>
   -s &nbsp; &nbsp; &nbsp;             Print the size in bytes of each file.<br/>
@@ -46,7 +46,7 @@ This repository contains Linux Tree Command Implementation Project in C.
   
   ------- Miscellaneous options -------<br/>
   --help &nbsp; &nbsp; &nbsp;         Print usage and this help message and exit.<br/>
-  --all	&nbsp; &nbsp; &nbsp;	  Print all information about files.<br/>
+  --all	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	  Print all information about files.<br/>
 
 # How to run the project?<br/>
 1) First compile all project c files using makefile. (Makefile helps to compile uncompiled files only and avoids repetitive compilations)<br/>
