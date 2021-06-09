@@ -93,8 +93,6 @@ This repository contains Linux Tree Command Implementation Project in C.
       <td>Reverse alphabetical order of files/directories.</td>
     </tr>
   </table>
-  -t &nbsp; &nbsp; &nbsp;             Sort files by last modification time.<br/>
-  -r &nbsp; &nbsp; &nbsp;             Reverse alphabetical order of files/directories.<br/>
   
   ------- XML/HTML/JSON options -------<br/>
   <table>
@@ -119,11 +117,6 @@ This repository contains Linux Tree Command Implementation Project in C.
       <td>Output an HTML format of the tree to filename.</td>
     </tr>
   </table>
-  -X &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           Prints out an XML representation of the tree.<br/>
-  -X -o filename &nbsp; &nbsp; &nbsp; Output an XML representation of the tree to filename.<br/>
-  -J &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          Prints out an JSON representation of the tree.<br/>
-  -J -o filename &nbsp; &nbsp; &nbsp; Output an JSON representation of the tree to filename.<br/>
-  -H -o filename &nbsp; &nbsp; &nbsp; Output an HTML format of the tree to filename.<br/>
   
   ------- Miscellaneous options -------<br/>
   <table>
@@ -136,8 +129,6 @@ This repository contains Linux Tree Command Implementation Project in C.
       <td>Print all information about files.</td>
     </tr>
   </table>
-  --help &nbsp; &nbsp; &nbsp;         Print usage and this help message and exit.<br/>
-  --all	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	  Print all information about files.<br/>
 
 # How to run the project?<br/>
 1) First compile all project c files using makefile. (Makefile helps to compile uncompiled files only and avoids repetitive compilations)<br/>
