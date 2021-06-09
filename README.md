@@ -18,7 +18,7 @@ This repository contains Linux Tree Command Implementation Project in C.
   -a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;           All files are listed(private files also).<br/>
   -d &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;             List directories only.<br/>
   -f &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          Print the full path prefix for each file.<br/>
-  -L level &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Descend only level directories deep.<br/>
+  -L level &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       Descend only level directories deep.<br/>
   -P pattern &nbsp; &nbsp; &nbsp; &nbsp;       List only those files that match the wild-card pattern given.<br/>
   -I pattern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      Do not list files that match the given wild-card pattern.<br/>
   --noreport &nbsp; &nbsp; &nbsp; &nbsp;       Turn off file/directory count at end of tree listing.<br/>
@@ -38,9 +38,9 @@ This repository contains Linux Tree Command Implementation Project in C.
   -r &nbsp; &nbsp; &nbsp;             Reverse alphabetical order of files/directories.<br/>
   
   ------- XML/HTML/JSON options -------<br/>
-  -X &nbsp; &nbsp; &nbsp;             Prints out an XML representation of the tree.<br/>
+  -X &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            Prints out an XML representation of the tree.<br/>
   -X -o filename &nbsp; &nbsp; &nbsp; Output an XML representation of the tree to filename.<br/>
-  -J &nbsp; &nbsp; &nbsp;             Prints out an JSON representation of the tree.<br/>
+  -J &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;            Prints out an JSON representation of the tree.<br/>
   -J -o filename &nbsp; &nbsp; &nbsp; Output an JSON representation of the tree to filename.<br/>
   -H -o filename &nbsp; &nbsp; &nbsp; Output an HTML format of the tree to filename.<br/>
   
