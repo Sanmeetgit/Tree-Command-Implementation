@@ -132,13 +132,13 @@ This repository contains Linux Tree Command Implementation Project in C.
 
 # How to run the project?<br/>
 1) First compile all project c files using makefile. (Makefile helps to compile uncompiled files only and avoids repetitive compilations)<br/>
-Use this command -> make all<br/>
+Use this command -> `make all`<br/>
 
 2) To execute the project,<br/>
-Use this command (without arguments) -> ./run <br/>
-Use this command (with arguments) -> ./run path flag1 flag2 <br/>
+Use this command (without arguments) -> `./run` <br/>
+Use this command (with arguments) -> `./run path flag1 flag2` <br/>
 Here you can use path and flags if needed.<br/>
 
 3) To clean .o files (object files) and executable file created after project compilation,<br/>
-Use this command -> make clean <br/>
+Use this command -> `make clean` <br/>
 
